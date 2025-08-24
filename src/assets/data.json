@@ -1,0 +1,42 @@
+[
+  {
+    "id": "tsrt1_v",
+    "name": "Product1 - Vychodcomm T-shirt1",
+    "short": "Short product1 description",
+    "description": "Product1 Description Product1 Description Product1 Description Product1 Description Product1 Description Product1 Description Product1 Description",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": ["black", "white", "gray"],
+    "price": 20,
+    "images": ["2.png", "2.png", "2.png", "1.png", "2.png"]
+  },
+  {
+    "id": "tsrt2_v",
+    "name": "Product2 - Vychodcomm T-shirt2",
+    "short": "Short product2 description",
+    "description": "Product2 Description Product2 Description Product2 Description Product2 Description Product2 Description Product2 Description Product2 Description Product2 Description Product2 Description",
+    "sizes": ["S", "M", "L"],
+    "colors": ["black", "white", "gray"],
+    "price": 25,
+    "images": ["1.png", "1.png", "2.png", "2.png", "2.png"]
+  },
+  {
+    "id": "tsrt3_v",
+    "name": "Product3 - Vychodcomm T-shirt3",
+    "short": "Short product3 description",
+    "description": "Product3 Description Product3 Description Product3 Description Product3 Description Product3 Description Product3 Description Product3 Description",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": ["black", "white", "gray"],
+    "price": 40,
+    "images": ["2.png", "2.png", "2.png", "1.png", "2.png"]
+  },
+  {
+    "id": "tsrt4_v",
+    "name": "Product4 - Vychodcomm T-shirt4",
+    "short": "Short product4 description",
+    "description": "Product4 Description Product4 Description Product4 Description Product4 Description Product4 Description Product4 Description Product4 Description",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": ["black", "white", "gray"],
+    "price": 32,
+    "images": ["1.png", "2.png", "2.png", "1.png", "2.png"]
+  }
+]
