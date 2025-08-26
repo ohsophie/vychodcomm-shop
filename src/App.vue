@@ -1,7 +1,6 @@
 <script>
   import Header from "./components/Header.vue";
   import Footer from "./components/Footer.vue";
-  // import Shop from "./pages/Shop.vue";
   import Navbar from "./components/Navbar.vue";
 
   export default {
@@ -14,8 +13,8 @@
 </script>
 
 <template>
-  <Header />
-  <Navbar />
+  <Header v-if="$route.name !== 'Home'" />
+  <Navbar v-if="$route.name !== 'Home'" />
   <router-view />
   <Footer />
 </template>

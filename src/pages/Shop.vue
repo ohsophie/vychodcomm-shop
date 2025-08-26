@@ -12,7 +12,10 @@
     methods: {
       getFirstImage(product) {
         if (!product.images || !product.images.length) return "";
-        return new URL(`../assets/${product.images[0]}`, import.meta.url).href;
+        return new URL(
+          `../assets/product_photos/${product.images[0]}`,
+          import.meta.url
+        ).href;
       },
     },
   };
@@ -38,6 +41,7 @@
     font-size: 25px;
     text-align: center;
     margin: 20px;
+    margin-top: 30px;
   }
 
   .shop {

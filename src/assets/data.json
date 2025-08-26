@@ -1,42 +1,82 @@
 [
   {
-    "id": "tsrt1_v",
-    "name": "Product1 - Vychodcomm T-shirt1",
-    "short": "Short product1 description",
-    "description": "Product1 Description Product1 Description Product1 Description Product1 Description Product1 Description Product1 Description Product1 Description",
-    "sizes": ["XS", "S", "M", "L", "XL"],
-    "colors": ["black", "white", "gray"],
-    "price": 20,
-    "images": ["2.png", "2.png", "2.png", "1.png", "2.png"]
-  },
-  {
-    "id": "tsrt2_v",
-    "name": "Product2 - Vychodcomm T-shirt2",
-    "short": "Short product2 description",
-    "description": "Product2 Description Product2 Description Product2 Description Product2 Description Product2 Description Product2 Description Product2 Description Product2 Description Product2 Description",
-    "sizes": ["S", "M", "L"],
-    "colors": ["black", "white", "gray"],
+    "id": "00172",
+    "name": "Tričko - Bus 72",
+    "short": "Limitovaná kolekcia",
+    "description": "Oversize unisex tričko zo 100 % bavlny. Voľný a pohodlný strih vhodný pre každého. Mäkký, kvalitný materiál zabezpečuje celodenné pohodlie. Ideálne na každodenné nosenie aj štýlové kombinovanie.",
+    "sizes": ["Sold Out"],
+    "colors": ["white"],
     "price": 25,
-    "images": ["1.png", "1.png", "2.png", "2.png", "2.png"]
+    "images": ["72-1.jpg", "72-2.jpg", "72-3.jpg", "72-4.jpg", "72-5.jpg"]
   },
   {
-    "id": "tsrt3_v",
-    "name": "Product3 - Vychodcomm T-shirt3",
-    "short": "Short product3 description",
-    "description": "Product3 Description Product3 Description Product3 Description Product3 Description Product3 Description Product3 Description Product3 Description",
-    "sizes": ["XS", "S", "M", "L", "XL"],
-    "colors": ["black", "white", "gray"],
-    "price": 40,
-    "images": ["2.png", "2.png", "2.png", "1.png", "2.png"]
+    "id": "001FW",
+    "name": "Tričko - Felda/Felicia White",
+    "short": "Limitovaná kolekcia",
+    "description": "Oversize unisex tričko zo 100 % bavlny. Voľný a pohodlný strih vhodný pre každého. Mäkký, kvalitný materiál zabezpečuje celodenné pohodlie. Ideálne na každodenné nosenie aj štýlové kombinovanie",
+    "sizes": ["S", "M", "L"],
+    "colors": ["white", "sand"],
+    "price": 25,
+    "images": ["FW-1.jpg", "FW-2.jpg", "FW-3.jpg", "FW-4.jpg", "FW-5.jpg"]
   },
   {
-    "id": "tsrt4_v",
-    "name": "Product4 - Vychodcomm T-shirt4",
-    "short": "Short product4 description",
-    "description": "Product4 Description Product4 Description Product4 Description Product4 Description Product4 Description Product4 Description Product4 Description",
-    "sizes": ["XS", "S", "M", "L", "XL"],
-    "colors": ["black", "white", "gray"],
-    "price": 32,
-    "images": ["1.png", "2.png", "2.png", "1.png", "2.png"]
+    "id": "001F",
+    "name": "Tričko - Felicia Sand",
+    "short": "Limitovaná kolekcia",
+    "description": "Oversize unisex tričko zo 100 % bavlny. Voľný a pohodlný strih vhodný pre každého. Mäkký, kvalitný materiál zabezpečuje celodenné pohodlie. Ideálne na každodenné nosenie aj štýlové kombinovanie",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["sand", "white"],
+    "price": 25,
+    "images": ["F-1.jpg", "F-2.jpg", "F-3.jpg", "F-4.jpg", "F-5.jpg"]
+  },
+  {
+    "id": "001NA",
+    "name": "Tričko - Nafukal Turbo",
+    "short": "Limitovaná kolekcia",
+    "description": "Oversize unisex tričko zo 100 % bavlny. Voľný a pohodlný strih vhodný pre každého. Mäkký, kvalitný materiál zabezpečuje celodenné pohodlie. Ideálne na každodenné nosenie aj štýlové kombinovanie",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["white"],
+    "price": 25,
+    "images": ["NA-1.jpg", "NA-2.jpg"]
+  },
+  {
+    "id": "001N",
+    "name": "Tričko - Necitim GYM",
+    "short": "Limitovaná kolekcia",
+    "description": "Oversize unisex tričko zo 100 % bavlny. Voľný a pohodlný strih vhodný pre každého. Mäkký, kvalitný materiál zabezpečuje celodenné pohodlie. Ideálne na každodenné nosenie aj štýlové kombinovanie",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["white"],
+    "price": 25,
+    "images": ["N-1.jpg", "N-2.jpg", "N-3.jpg", "N-4.jpg", "N-5.jpg"]
+  },
+  {
+    "id": "001P",
+    "name": "Tričko - Passeratti",
+    "short": "Limitovaná kolekcia",
+    "description": "Oversize unisex tričko zo 100 % bavlny. Voľný a pohodlný strih vhodný pre každého. Mäkký, kvalitný materiál zabezpečuje celodenné pohodlie. Ideálne na každodenné nosenie aj štýlové kombinovanie",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["white"],
+    "price": 25,
+    "images": ["P-1.jpg", "P-2.jpg", "P-3.jpg", "P-4.jpg", "P-5.jpg"]
+  },
+  {
+    "id": "001T",
+    "name": "Tričko - Tatry Everywhere",
+    "short": "Limitovaná kolekcia",
+    "description": "Oversize unisex tričko zo 100 % bavlny. Voľný a pohodlný strih vhodný pre každého. Mäkký, kvalitný materiál zabezpečuje celodenné pohodlie. Ideálne na každodenné nosenie aj štýlové kombinovanie",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["white"],
+    "price": 25,
+    "images": ["T-1.jpg", "T-2.jpg", "T-3.jpg", "T-4.jpg", "T-5.jpg"]
+  },
+  {
+    "id": "001S",
+    "name": "Tričko - Sidlisko",
+    "short": "Limitovaná kolekcia",
+    "description": "Oversize unisex tričko zo 100 % bavlny. Voľný a pohodlný strih vhodný pre každého. Mäkký, kvalitný materiál zabezpečuje celodenné pohodlie. Ideálne na každodenné nosenie aj štýlové kombinovanie",
+    "sizes": ["M - Last Size"],
+    "colors": ["grey"],
+    "price": 25,
+    "images": ["S-1.jpg", "S-2.jpg", "S-3.jpg", "S-4.jpg", "S-5.jpg"]
   }
 ]

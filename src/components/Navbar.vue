@@ -13,6 +13,9 @@
 
 <template>
   <nav class="navbar">
+    <div class="logoDiv">
+      <img src="../assets/logo_crop_compress.png" width="70" />
+    </div>
     <button class="burger" @click="toggleMenu">
       <span v-if="!isOpen">☰</span>
     </button>
@@ -101,6 +104,12 @@
 
   /* ====== Мобильное меню ====== */
   @media (max-width: 768px) {
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
     .nav-links {
       display: none; /* скрыто по умолчанию */
       flex-direction: column;

@@ -6,7 +6,7 @@
   const images = computed(() => {
     if (!product.value) return [];
     return product.value.images.map(
-      (img) => new URL(`../assets/${img}`, import.meta.url).href
+      (img) => new URL(`../assets/product_photos/${img}`, import.meta.url).href
     );
   });
 
@@ -36,6 +36,7 @@
       color: selectedColor.value,
       quantity: quantity.value,
       price: product.value.price,
+      image: images.value[0],
     });
 
     localStorage.setItem("cart", JSON.stringify(cart));
@@ -77,8 +78,8 @@
       </div>
     </div>
     <div class="desc">
-      <p>{{ product.name }}</p>
-      <p>
+      <p class="n">{{ product.name }}</p>
+      <p class="d">
         {{ product.description }}
       </p>
 
@@ -122,6 +123,13 @@
 </template>
 
 <style scoped>
+  .n {
+    font-size: 16pt;
+    font-weight: bold;
+  }
+  .d {
+    line-height: 30px;
+  }
   .smallSlides {
     display: flex;
     flex-direction: column;

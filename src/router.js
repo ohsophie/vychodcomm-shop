@@ -7,7 +7,11 @@ import About from "./pages/About.vue";
 import ContactForm from "./pages/ContactForm.vue";
 
 const routes = [
-  { path: "/", component: Home },
+  {
+    path: "/",
+    name: "Home",
+    component: Home,
+  },
   { path: "/shop", component: Shop },
   {
     path: "/product/:id", // важно :id
@@ -20,7 +24,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory("/vychodcomm-shop/"),
   routes,
 });
 
